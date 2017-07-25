@@ -1,0 +1,25 @@
+.navone {
+    padding: 40px;
+    .navone__logo {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .navone__search {
+        cursor: pointer;
+    }
+}
+
+.navtwo {
+    display: flex;
+    justify-content: center;
+    .navtwo__element {
+        display: inline-flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .navtwo__element:hover {
+        color: $azul;
+    }
+}
