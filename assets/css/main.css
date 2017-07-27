@@ -18,4 +18,17 @@
   .navtwo .navtwo__element:hover {
     color: #4285f4; }
 
+.home .home__title {
+  color: #424242; }
+.home .home__subtitle {
+  color: #414549; }
+.home .home__enlace {
+  color: #5f6368;
+  cursor: pointer; }
+.home .home__line {
+  background-color: blue;
+  height: 2px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
 /*# sourceMappingURL=main.css.map */

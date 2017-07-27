@@ -1,0 +1,15 @@
+.home {
+    .home__title {
+        color: $titulos;
+    }
+    .home__subtitle {
+        color: $texto;
+    }
+    .home__enlace {
+        color: $fecha;
+        cursor: pointer;
+    }
+    .home__line {
+        @include line();
+    }
+}
