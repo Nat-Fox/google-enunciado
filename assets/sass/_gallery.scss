@@ -1,0 +1,17 @@
+.gallery {
+    .gallery__title {
+        @include title();
+    }
+    .gallery__text {
+        @include texto();
+        font-size: 12px;
+    }
+    .gallery_clicked {
+        color: $fecha;
+        font-size: 11px;
+        cursor: pointer;
+    }
+    .gallery_line {
+        @include line();
+    }
+}

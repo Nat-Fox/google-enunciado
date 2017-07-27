@@ -63,4 +63,21 @@
   margin-top: 50px;
   margin-bottom: 50px; }
 
+.gallery .gallery__title {
+  color: #424242;
+  font-size: 20px; }
+.gallery .gallery__text {
+  color: #414549;
+  font-size: 14px;
+  font-size: 12px; }
+.gallery .gallery_clicked {
+  color: #5f6368;
+  font-size: 11px;
+  cursor: pointer; }
+.gallery .gallery_line {
+  background-color: blue;
+  height: 2px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
 /*# sourceMappingURL=main.css.map */
