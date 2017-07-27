@@ -1,9 +1,9 @@
 .home {
     .home__title {
-        color: $titulos;
+        @include title();
     }
     .home__subtitle {
-        color: $texto;
+        @include texto();
     }
     .home__enlace {
         color: $fecha;

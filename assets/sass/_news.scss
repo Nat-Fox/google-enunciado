@@ -1,0 +1,35 @@
+.news {
+    .news__title {
+        @include title();
+    }
+    .news__more {
+        color: $azul;
+        font-size: $news-text-more;
+        text-align: right;
+        cursor: pointer;
+    }
+    .news_fecha {
+        color: $fecha;
+    }
+    .news__texto {
+        @include texto();
+    }
+    .news__final {
+        background-color: $background-news;
+        height: $height-news;
+        margin-top: $mrg-top-news;
+        padding: $padding-news;
+        .news__texto {
+            margin-top: $mrg-top-text;
+            .news__texto--signup {
+                color: $azul;
+            }
+        }
+        .news__final_logo {
+            margin-top: 5px;
+        }
+    }
+    .news__line {
+        @include line();
+    }
+}
