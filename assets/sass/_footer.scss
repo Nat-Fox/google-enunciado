@@ -1,0 +1,30 @@
+.footer {
+    .footer__title {}
+    .footer__text {
+        @include texto();
+        font-size: 14px;
+        margin-bottom: 30px;
+        color: $fecha;
+    }
+    .footer__text--connect {
+        @include texto();
+        font-size: 14px;
+        margin-bottom: -1px;
+    }
+    .footer__text--clicked {
+        @include texto();
+        font-size: 14px;
+        line-height: 10px;
+        color: $fecha;
+        cursor: pointer;
+    }
+    .footer__rigth {
+        text-align: right;
+        margin-top: 20px;
+        color: $fecha;
+    }
+    footer {
+        @include box-shadow();
+        padding-top: 20px;
+    }
+}

@@ -14,3 +14,9 @@
     color: $texto;
     font-size: 14px;
 }
+
+@mixin box-shadow() {
+    -webkit-box-shadow: 5px -4px 19px 0px rgba(50, 50, 50, 0.55);
+    -moz-box-shadow: 5px -4px 19px 0px rgba(50, 50, 50, 0.55);
+    box-shadow: 5px -4px 19px 0px rgba(50, 50, 50, 0.55);
+}

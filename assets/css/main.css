@@ -80,4 +80,32 @@
   margin-top: 50px;
   margin-bottom: 50px; }
 
+.footer .footer__text {
+  color: #414549;
+  font-size: 14px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #5f6368; }
+.footer .footer__text--connect {
+  color: #414549;
+  font-size: 14px;
+  font-size: 14px;
+  margin-bottom: -1px; }
+.footer .footer__text--clicked {
+  color: #414549;
+  font-size: 14px;
+  font-size: 14px;
+  line-height: 10px;
+  color: #5f6368;
+  cursor: pointer; }
+.footer .footer__rigth {
+  text-align: right;
+  margin-top: 20px;
+  color: #5f6368; }
+.footer footer {
+  -webkit-box-shadow: 5px -4px 19px 0px rgba(50, 50, 50, 0.55);
+  -moz-box-shadow: 5px -4px 19px 0px rgba(50, 50, 50, 0.55);
+  box-shadow: 5px -4px 19px 0px rgba(50, 50, 50, 0.55);
+  padding-top: 20px; }
+
 /*# sourceMappingURL=main.css.map */
